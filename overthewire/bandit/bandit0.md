@@ -1,4 +1,4 @@
-# CTF Writeup - **OverTheWire - Bandit0**
+# CTF Writeup - **OverTheWire Bandit0 - Bandit1**
 
 **Author**: spiketyson  
 **Date**: 14-11-2024
@@ -7,7 +7,7 @@
 
 ## Challenge Details
 
-- **Challenge Name:** [Challenge Name]
+- **Challenge Name:** Bandit0 - Bandit1
 - **Category:** Linux
 - **Difficulty Level:** Easy
 - **Date:** 14-11-2024
@@ -28,7 +28,6 @@ Since this is an introductory challenge, I planned to use basic Linux commands l
 
 ## Solution Walkthrough
 
-### Step 1: Connect via SSH
 Connecting to the server using the `ssh` command as below:
 
 ```bash
