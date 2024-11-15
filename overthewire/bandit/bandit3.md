@@ -1,7 +1,6 @@
 # CTF Writeup - **OverTheWire Bandit3 - Bandit4**
 
 **Author**: spiketyson  
-**Date**: 14-11-2024
 
 ---
 
@@ -46,7 +45,7 @@ Using the `cd` command, I went inside the of `inhere` directory to explore. Then
 
 ```bash
 cd inhere
-la -la
+ls -la
 # Output: ...Hiding-From-You
 ```
 Now I found the file that has the flag. using `cat` command we can read the contents of the file as shown below.

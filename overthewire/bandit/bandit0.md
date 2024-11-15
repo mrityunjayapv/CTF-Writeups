@@ -1,7 +1,6 @@
 # CTF Writeup - **OverTheWire Bandit0 - Bandit1**
 
-**Author**: spiketyson  
-**Date**: 14-11-2024
+**Author**: spiketyson 
 
 ---
 
