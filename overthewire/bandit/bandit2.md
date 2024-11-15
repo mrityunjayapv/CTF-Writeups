@@ -16,7 +16,7 @@
 
 ## Summary
 
-This challenge is the level1 for the Bandit series on OverTheWire, focusing on basic Linux command-line skills. The goal is to connect to a server via SSH and read the file that has the flag.
+This challenge is the level2 for the Bandit series on OverTheWire, focusing on basic Linux command-line skills. The goal is to connect to a server via SSH and read the file that has the flag.
 
 ---
 
