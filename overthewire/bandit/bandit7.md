@@ -9,7 +9,7 @@
 - **Challenge Name:** Bandit7 - Bandit8
 - **Category:** Linux
 - **Difficulty Level:** Easy
-- **Date:** 15-11-2024
+- **Date:** 16-11-2024
 
 ---
 
@@ -30,7 +30,7 @@ Since this is an basic challenge, I planned to use basic Linux commands like `ss
 Connecting to the server using the `ssh` command as below:
 
 ```bash
-ssh bandit6@bandit.labs.overthewire.org -p 2220
+ssh bandit7@bandit.labs.overthewire.org -p 2220
 # Password: morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
 ```
 
