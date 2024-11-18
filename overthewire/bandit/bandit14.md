@@ -15,12 +15,12 @@
 
 ## Summary
 
-This challenge is the level13 for the Bandit series on OverTheWire, focusing on basic Linux command-line skills. The password for the next level can be retrieved by submitting the password of the current level to port 30000 on localhost.
+This challenge is the level14 for the Bandit series on OverTheWire, focusing on basic Linux command-line skills. The password for the next level can be retrieved by submitting the password of the current level to port 30000 on localhost.
 ---
 
 ## Approach
 
-Since this is an basic challenge, I planned to use basic Linux commands like `ssh`, `ls`, and `cat` to explore the server and retrieve the flag.
+Since this is an basic challenge, I planned to use basic Linux commands like `ssh`, `ls`, and `nc` to explore the server and retrieve the flag.
 
 ---
 
