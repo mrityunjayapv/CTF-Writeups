@@ -20,7 +20,7 @@ This challenge is the level15 for the Bandit series on OverTheWire, focusing on 
 
 ## Approach
 
-Since this is an basic challenge, I planned to use basic Linux commands like `ssh`, `ls`, and `cat` to explore the server and retrieve the flag.
+Since this is an basic challenge, I planned to use basic Linux commands like `ssh`, and `openssl` to explore the server and retrieve the flag.
 
 ---
 
