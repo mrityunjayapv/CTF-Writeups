@@ -15,7 +15,7 @@
 
 ## Summary
 
-This challenge is the level16 for the Bandit series on OverTheWire, focusing on basic Linux command-line skills. There are 2 files in the homedirectory: passwords.old and passwords.new. The password for the next level is in passwords.new and is the only line that has been changed between passwords.old and passwords.new
+This challenge is the level17 for the Bandit series on OverTheWire, focusing on basic Linux command-line skills. There are 2 files in the homedirectory: passwords.old and passwords.new. The password for the next level is in passwords.new and is the only line that has been changed between passwords.old and passwords.new
 ---
 
 ## Approach
