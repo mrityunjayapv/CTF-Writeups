@@ -15,7 +15,7 @@
 
 ## Summary
 
-This challenge is the level16 for the Bandit series on OverTheWire, focusing on basic Linux command-line skills. The credentials for the next level can be retrieved by submitting the password of the current level to a port on localhost in the range 31000 to 32000. First find out which of these ports have a server listening on them. Then find out which of those speak SSL/TLS and which don’t. There is only 1 server that will give the next credentials, the others will simply send back to you whatever you send to it..
+This challenge is the level16 for the Bandit series on OverTheWire, focusing on basic Linux command-line skills. The credentials for the next level can be retrieved by submitting the password of the current level to a port on localhost in the range 31000 to 32000. First find out which of these ports have a server listening on them. Then find out which of those speak SSL/TLS and which don’t. There is only 1 server that will give the next credentials, the others will simply send back to you whatever you send to it.
 ---
 
 ## Approach
