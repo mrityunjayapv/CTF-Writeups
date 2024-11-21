@@ -50,7 +50,7 @@ ls -la /etc/cron.d
 # -rw-r--r--   1 root root   396 Jan  9  2024 sysstat
 ```
 
-Here we can find a file related to bandit22. As we are looking for bandit22 `password` `cronjob_bandit22` seems interesting. lets see the contents of the file.  
+Here we can find a file related to bandit22. As we are looking for bandit22 password `cronjob_bandit22` seems interesting. lets see the contents of the file.  
 
 ```bash
 cat cronjob_bandit22
