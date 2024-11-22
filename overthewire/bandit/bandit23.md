@@ -15,7 +15,7 @@
 
 ## Summary
 
-This challenge is the level22 for the Bandit series on OverTheWire, focusing on basic Linux command-line skills. A program is running automatically at regular intervals from cron, the time-based job scheduler. Look in /etc/cron.d/ for the configuration and see what command is being executed.  This level requires you to create your own first shell-script. This is a very big step and you should be proud of yourself when you beat this level!. Keep in mind that your shell script is removed once executed, so you may want to keep a copy around
+This challenge is the level23 for the Bandit series on OverTheWire, focusing on basic Linux command-line skills. A program is running automatically at regular intervals from cron, the time-based job scheduler. Look in /etc/cron.d/ for the configuration and see what command is being executed.  This level requires you to create your own first shell-script. This is a very big step and you should be proud of yourself when you beat this level!. Keep in mind that your shell script is removed once executed, so you may want to keep a copy around
 ---
 
 ## Approach
