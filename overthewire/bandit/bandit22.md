@@ -1,4 +1,4 @@
-# CTF Writeup - **OverTheWire Bandit21 - Bandit22**
+# CTF Writeup - **OverTheWire Bandit22 - Bandit23**
 
 **Author**: spiketyson  
 
@@ -98,5 +98,4 @@ cat /tmp/8ca319486bfbbc3663ea0fbe81326349
 ---
 
 ## Lessons Learned
-
 It was a easy challenge which gave me the exact clues i needed. It was very obvious the we need to look for something related bandit23 in the cronjobs.
