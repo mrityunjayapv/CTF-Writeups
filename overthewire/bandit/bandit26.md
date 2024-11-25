@@ -26,7 +26,7 @@ Since this is an easy challenge, I planned to use basic Linux commands like `ls`
 
 ## Solution Walkthrough
 
-Connect cannot connect the server using the `ssh` command as below as there is not proper shell for us to connect to terminal. we can only do it use the `bandit25` solution. We will have access to the terminal after following the last part of the walkthrough in `bandit25`. Now that we have a shell. Lets explore the server and find the flag.
+We cannot connect the server using the `ssh` command as below as there is not proper shell for us to connect to terminal. we can only do it use the `bandit25` solution. We will have access to the terminal after following the last part of the walkthrough in `bandit25`. Now that we have a shell. Lets explore the server and find the flag.
 
 ```bash
 ssh bandit26@bandit.labs.overthewire.org -p 2220 -t sh
