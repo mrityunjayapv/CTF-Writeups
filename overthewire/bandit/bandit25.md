@@ -61,7 +61,7 @@ cat /etc/passwd | grep bandit26
 Here we can see that the shell is something different from the usual. It executes the code stored int `usr/bin/showtext` before opening the connection to any user in bandit26. Lets explore the data in the file as shown below.
 
 ```bash
-# cat /usr/bin/showtext
+cat /usr/bin/showtext
 # Output:
 # #!/bin/sh
 # export TERM=linux
@@ -83,6 +83,7 @@ In interactive mode, we can press `v` to edit the file using the editor set. The
 :e /etc/bandit_pass/bandit26
 # FLAG{s0773xxkk0MXfdqOfPRVr9L3jJBUOgCZ}
 ```
+We can also set the shell to use /bin/bash as discussed below, So that it would be helpful for use to connect via ssh to the next level. This can be done when we open the ssh connection and more in interactive mode where the terminal is minimized when can then press `v` and then execute `:set shell=/bin/bash` and then press `Enter`. This will give us access to `bandit26` terminal with `/bin/bash` shell.
 
 ---
 
