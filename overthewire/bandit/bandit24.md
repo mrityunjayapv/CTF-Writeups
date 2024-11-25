@@ -15,7 +15,7 @@
 
 ## Summary
 
-This challenge is the level22 for the Bandit series on OverTheWire, focusing on basic Linux command-line skills. A daemon is listening on port 30002 and will give you the password for bandit25 if given the password for bandit24 and a secret numeric 4-digit pincode. There is no way to retrieve the pincode except by going through all of the 10000 combinations, called brute-forcing. You do not need to create new connections each time.
+This challenge is the level24 for the Bandit series on OverTheWire, focusing on basic Linux command-line skills. A daemon is listening on port 30002 and will give you the password for bandit25 if given the password for bandit24 and a secret numeric 4-digit pincode. There is no way to retrieve the pincode except by going through all of the 10000 combinations, called brute-forcing. You do not need to create new connections each time.
 ---
 
 ## Approach
