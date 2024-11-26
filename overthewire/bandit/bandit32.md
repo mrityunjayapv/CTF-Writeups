@@ -85,6 +85,21 @@ cat /etc/bandit_pass/bandit33
 # FLAG{tQdtbs5D5i2vJwkO8mEyYEyTL8izoeJ0}
 ```
 
+Lets try logging into `bandit33` using `ssh` and then lets explore the server using `ls` and then lets read the contents of the files present as shown below.
+
+```bash
+ssh bandit33@bandit.labs.overthewire.org -p 2220 
+# Password: tQdtbs5D5i2vJwkO8mEyYEyTL8izoeJ0
+ls -la
+# README.txt
+cat README.txt
+# Congratulations on solving the last level of this game!
+# At this moment, there are no more levels to play in this game. However, we are constantly working
+# on new levels and will most likely expand this game with more levels soon.
+# Keep an eye out for an announcement on our usual communication channels!
+# In the meantime, you could play some of our other wargames.
+# If you have an idea for an awesome new level, please let us know!
+```
 
 ---
 
@@ -95,4 +110,4 @@ cat /etc/bandit_pass/bandit33
 ---
 
 ## Lessons Learned
-It was a good learning challenge where i understood how the shell works and how the variables are set in the shell and how we can execute commands using system arguments for a program. 
+It was a good learning challenge where i understood how the shell works and how the variables are set in the shell and how we can execute commands using system arguments for a program. This is the last challenge for the current Bandit at this point of time. 
