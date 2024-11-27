@@ -15,22 +15,22 @@
 
 ## Summary
 
-This challenge is the introductory level for the Krypton series on OverTheWire, focusing on basic cryptography skills. The goal is to connect to a server via SSH after decoding a base64 string.
+This challenge is the introductory level0 for the Krypton series on OverTheWire, focusing on basic cryptography skills. The goal is to connect to a server via SSH after decoding a base64 string.
 
 ---
 
 ## Approach
 
-Since this is an introductory challenge, I planned to use `dcode.fr` for decoding the `base64` string and then connect to server using `ssh` and explore the server using `ls`, and `cat` to retrieve the flag.
+Since this is an introductory challenge, I planned to use `base64` for decoding the `base64` string and then connect to server using `ssh` and explore the server using `ls`, and `cat` to retrieve the flag.
 
 ---
 
 ## Solution Walkthrough
 
-As we have been give and `base64` encoded string lets go to `dcode.fr` to decode it to get the password of krypton0 to log into the server.
+As we have been give and `base64` encoded string lets use `base64 -d` to decode it to get the password of krypton0 to log into the server.
 
 ```bash
-S1JZUFRPTklTR1JFQVQ=
+echo "S1JZUFRPTklTR1JFQVQ=" | base64 -d
 # KRYPTONISGREAT
 ```
 Now that we got the password, we can login to the server using `ssh` ash shown below. 
