@@ -16,6 +16,7 @@
 ## Summary
 
 This challenge is the introductory level2 for the Krypton series on OverTheWire, focusing on basic cryptography skills. The password for level 3 is in the file krypton3. It is in 5 letter group ciphertext. It is encrypted with a Caesar Cipher. Without any further information, this cipher text may be difficult to break. You do not have direct access to the key, however you do have access to a program that will encrypt anything you wish to give it using the key. If you think logically, this is completely easy.
+
 ---
 
 ## Approach
@@ -74,7 +75,7 @@ cat ciphertext
 # MNO
 ```
 
-The above commands try to create a `encrypt.txt` with `ABC` as data and then encrypts the file. Once we have encrypted. We can see a new file called `ciphertext` in our temporary directory. If we see that contents of the file, we can see that `ABC` is encrypted as `MNO`. This is a classic caesar cipher as `A` is pushed by 12 steps to denoted `M` and `B` is pushed 12 steps to be denoted `N`. In Alphabets, we know that there is only 26 alphabets, and we have rotated by 12 to get the ciphertext. In order to get the original text back we need to rotate `26-12=14` so that we can get the original text. This is `ROT14` cipher, we can decrypt it using `tr` as shown below. 
+The above commands try to create a `encrypt.txt` with `ABC` as data and then encrypts the file. Once we have encrypted. We can see a new file called `ciphertext` in our temporary directory. If we see that contents of the file, we can see that `ABC` is encrypted as `MNO`. This is a classic caesar cipher as `A` is pushed by 12 steps to denoted `M` and `B` is pushed 12 steps to be denoted `N`. In Alphabets, we know that there is only 26 alphabets, and we have rotated by 12 to get the ciphertext. In order to get the original text back we need to rotate `26-12=14` so that we can get the original text. This is `ROT14` cipher, we can decrypt it using `tr` as shown below where `A` should be rotated `O` 
 
 ```bash
 cat /krypton/krypton2/krypton3 | tr 'a-zA-Z' 'o-za-nO-ZA-N'
