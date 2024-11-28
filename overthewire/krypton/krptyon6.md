@@ -82,8 +82,12 @@ Now that we have decrypted our password its still not in human readable format r
 ```bash
 >>> ''.join([chr(ord(b) - a) for a,b in zip([4, 8, 2, -7, 3, 6, -2, 8, -2, -1, 10, -7, 7, -13, -8], 'PNUKLYLWRQKGKBE')])
 # 'LFSRISNOTRANDOM'
+ssh krypton7@krypton.labs.overthewire.org -p 2231
+# Password: LFSRISNOTRANDOM
+cd /krypton/krypton7/
+cat README
+# Congratulations on beating Krypton!
 ```
-
 
 ---
 
@@ -95,4 +99,4 @@ Now that we have decrypted our password its still not in human readable format r
 
 ## Lessons Learned
 
-It was a good learning series for using cryptographic tools to decode the ciphers.
+It was a good learning series for using cryptographic tools to decode the ciphers. This was the last challenge of this series.
