@@ -15,7 +15,7 @@
 
 ## Summary
 
-This challenge is the introductory level34 for the Krypton series on OverTheWire, focusing on basic cryptography skills.  This level is a Vigenère Cipher. You have intercepted two longer, english language messages (American English). You also have a key piece of information. You know the key length! For this exercise, the key length is 6. The password to level five is in the usual place, encrypted with the 6 letter key.
+This challenge is the introductory level4 for the Krypton series on OverTheWire, focusing on basic cryptography skills.  This level is a Vigenère Cipher. You have intercepted two longer, english language messages (American English). You also have a key piece of information. You know the key length! For this exercise, the key length is 6. The password to level five is in the usual place, encrypted with the 6 letter key.
 
 ---
 
