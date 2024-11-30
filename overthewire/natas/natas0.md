@@ -1,4 +1,4 @@
-# CTF Writeup - **OverTheWire Natas0 - Natas1**
+# CTF Writeup - **OverTheWire Natas0**
 
 **Author**: spiketyson 
 
@@ -6,7 +6,7 @@
 
 ## Challenge Details
 
-- **Challenge Name:** Natas0 - Natas1
+- **Challenge Name:** Natas0
 - **Category:** Linux
 - **Difficulty Level:** Easy
 - **Date:** 30-11-2024
