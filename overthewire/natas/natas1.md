@@ -35,7 +35,7 @@ Password: 0nzCigAq7t2iALyvU9xcHlYN4MlkIwlq
 URL:      http://natas1.natas.labs.overthewire.org
 ```
 
-After logging in, we can see that the webpage says `You can find the password for the next level on this page, but rightclicking has been blocked!`. Lets see the page source of this webpage by clicking of `F12` which opens the inspect element of the webpag. Now that we have got access to the inspect element, We can see that the inspected webpage has a comment on the html page which has the password as shown below. 
+After logging in, we can see that the webpage says `You can find the password for the next level on this page, but rightclicking has been blocked!`. Since the right click is blocked, we can still inspect element the whole webpage by clicking of `F12` which opens the inspect element of the webpage. Now that we have got access to the inspect element, We can see that the inspected webpage has a comment on the html page which has the password as shown below. 
 
 
 ```bash
