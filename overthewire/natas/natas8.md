@@ -83,7 +83,7 @@ It says wrong secret, but we can see that there is a source code button availabl
 # </html>
 ```
 
-We can see that there is a form which takes our input, and when we submit the input there is a javascript code which gets executed on the input, Where the code takes our input and passes it to a function called `encodedSecret()`. This function then converts out secret message to `base64` format then the reverses the string using `strrev` and then finally converts the whole string from binary to hexadecimal using `bin2hex`. Finally this string is compared to the encoded string. Since we dont know what input string will produce the encoded secret. Lets go the opposite way of trying to reverse the operation. Lets take the encoded string and convert it to `binary` and the reverse it and the decrypt is using `base64` decoder.
+We can see that there is a form which takes our input, and when we submit the input there is a php code which gets executed on the input, Where the code takes our input and passes it to a function called `encodedSecret()`. This function then converts out secret message to `base64` format then the reverses the string using `strrev` and then finally converts the whole string from binary to hexadecimal using `bin2hex`. Finally this string is compared to the encoded string. Since we dont know what input string will produce the encoded secret. Lets go the opposite way of trying to reverse the operation. Lets take the encoded string and convert it to `binary` and the reverse it and the decrypt is using `base64` decoder.
  
 ```bash
 3d3d516343746d4d6d6c315669563362

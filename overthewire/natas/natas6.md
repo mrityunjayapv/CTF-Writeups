@@ -79,7 +79,7 @@ It says wrong secret, but we can see that there is a source code button availabl
 # </html>
 ```
 
-We can see that there is a form which take our input, and when we submit the input there is a javascript code which gets executed on the input, Where the code gets the secret from `includes` directory which has a file called `secret.ini` and then compares our input with the secret in the file and then outputs the password if the secrets match. Lets see if we can access `secret.ini` through url.
+We can see that there is a form which take our input, and when we submit the input there is a php code which gets executed on the input, Where the code gets the secret from `includes` directory which has a file called `secret.ini` and then compares our input with the secret in the file and then outputs the password if the secrets match. Lets see if we can access `secret.ini` through url.
 
 ```bash
 http://natas6.natas.labs.overthewire.org/includes/secret.inc
