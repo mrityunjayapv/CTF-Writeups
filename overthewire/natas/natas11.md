@@ -9,7 +9,7 @@
 - **Challenge Name:** Natas10 - Natas11
 - **Category:** Linux
 - **Difficulty Level:** Easy
-- **Date:** 3-12-2024
+- **Date:** 4-12-2024
 
 ---
 
