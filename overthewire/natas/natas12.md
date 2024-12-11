@@ -122,7 +122,7 @@ We can see that there is a form which takes our input, and when we submit the in
 <?php echo shell_exec($_GET['e'].' 2>&1'); ?>
 ```
 
-Now, What this php code does is that if it gets executed then it executes anything that we append at the end of the url. For example `http://natas12.natas.labs.overthewire.org/index.php?e=ls` if we see here we have entered the variable `e` to take `ls` and when we enter such urls it will make a get request and value of e is executed in the shell as it will be running in the webserver. Before uploading we need to check of its sent to the server so start the burpsuite with the intercept on and then upload the file and submit it. We can see that the file is getting saved as `zzkcpd7s0d.jpg` so we need to change it as `zzkcpd7s0d.php` before forwarding. 
+Now, What this php code does is that if it gets executed then it executes anything that we append at the end of the url. For example `http://natas12.natas.labs.overthewire.org/index.php?e=ls` if we see here we have entered the variable `e` to take `ls` and when we enter such urls it will make a get request and value of e is executed in the shell as it will be running in the webserver. Before uploading we need to check how its sent to the server so start the burpsuite with the intercept on and then upload the file and submit it. We can see that the file is getting saved as `zzkcpd7s0d.jpg` so we need to change it as `zzkcpd7s0d.php` before forwarding. 
 
 ```bash
 # POST /index.php HTTP/1.1
