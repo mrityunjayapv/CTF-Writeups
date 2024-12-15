@@ -35,7 +35,7 @@ Password: z3UYcr4v4uBpeX8f7EZbMHlzK4UR2XtQ
 URL:      http://natas14.natas.labs.overthewire.org
 ```
 
-After logging in, we can see that the webpage asks for login credentials as input.  But we dont know anything about it, So lets input some random image and check it out. 
+After logging in, we can see that the webpage asks for login credentials as input.  But we dont know anything about it, So lets input some random names and check it out. 
 
 ```bash
 Username: abc
