@@ -21,7 +21,7 @@ This challenge is the introductory level for the Natas series on OverTheWire, fo
 
 ## Approach
 
-Since this is an basic challenge, I planned to use inspect element to troubleshoot and find the flag.
+Since this is an basic challenge, I planned to use python to find the flag using blind injection.
 
 ---
 
