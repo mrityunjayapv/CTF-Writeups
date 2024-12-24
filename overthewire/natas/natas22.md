@@ -21,7 +21,7 @@ This challenge is the introductory level for the Natas series on OverTheWire, fo
 
 ## Approach
 
-Since this is an basic challenge, I planned to use python to find the flag using redirects blocking.
+Since this is an basic challenge, I planned to use python to find the flag using type juggling.
 
 ---
 
