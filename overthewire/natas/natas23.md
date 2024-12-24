@@ -1,4 +1,4 @@
-# CTF Writeup - **OverTheWire Natas23- Natas24**
+# CTF Writeup - **OverTheWire Natas22- Natas23**
 
 **Author**: spiketyson 
 
@@ -6,7 +6,7 @@
 
 ## Challenge Details
 
-- **Challenge Name:** Natas23 - Natas24
+- **Challenge Name:** Natas22 - Natas23
 - **Category:** Linux
 - **Difficulty Level:** Easy
 - **Date:** 24-12-2024
